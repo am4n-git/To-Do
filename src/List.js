@@ -1,11 +1,16 @@
 import React from 'react'
-
+import './List.css'
 function List(props) {
     console.log(props)
     return (
         <div>
-            {props.itemList.map(itemObj=>{
-               return (<p>{itemObj.item}</p>);
+
+            {
+            props.itemL.map((itemObj)=>{
+               return (<div className="item">
+                   <p>{itemObj.item}</p> 
+                   <button>x</button>
+                   </div>);
             })
         }
             
