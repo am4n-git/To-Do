@@ -21,8 +21,13 @@
   background-color: #2b2b2b;
   color: #fff;
   margin-right: 12px;
-  
+  transition: .5s ease-in-out;
 }
+.input-wrapper input:focus-within{
+  background-color: #fff;
+  color: black;
+}
+
 .input-wrapper button{
   height: 30px;
   width: 30px;

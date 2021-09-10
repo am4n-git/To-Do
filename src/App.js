@@ -23,7 +23,7 @@ function App() {
           <input placeholder="Add item" value={currentItem} onChange={onChangeHandler}/>
           <button onClick={addItemToList}>+</button>
         </div>
-        <List itemL= {itemList}/>
+        <List itemL= {itemList} />
       </div>
     </div>
   );
